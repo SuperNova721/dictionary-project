@@ -1,21 +1,33 @@
 import './App.css';
 import Dictionary from "./Dictionary.js";
+import ImageResults from "./ImageResults";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-      <header className="dictionary-header">
-        Dictionary
-      </header>
-      <Dictionary />
-      <footer>
-        This project was created by
-        <a href="https://linkedin.com/in/holly-hadley7"> Holly Hadley </a>
-        and is open sourced on
-        <a href="https://github.com/SuperNova721/dictionary-project.git"> GitHub</a>
+        <div className="row">
+          <div className="col-5">
+            <header className="dictionary-header">
+              Dictionary
+            </header>
+            <Dictionary />
+          </div>
+          <div className="result-images justify-content-center col-7">
+            <p>Image's go here</p>
+            <ImageResults />
+          </div>
+          </div>
+
+            <footer>
+              This project was created by
+              <a href="https://linkedin.com/in/holly-hadley7"> Holly Hadley </a>
+              and is open sourced on
+              <a href="https://github.com/SuperNova721/dictionary-project.git"> GitHub</a>
         
-      </footer>
+            </footer>
+        
+        
       </div>
     </div>
   );
