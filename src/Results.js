@@ -29,12 +29,6 @@ export default function Results(props) {
             </div>
         );
     } else {
-    return (
-        <div className="results-not-found">
-            <h2>Lame, your word was not found!</h2>
-            <h3>Please Refresh the page, check your spelling and try again. </h3>
-            <img src="https://www.iconpacks.net/icons/2/free-sad-face-icon-2691-thumb.png" alt="sad face" width="100"></img>
-        </div>
-    );
+    return null;
 }
 }
