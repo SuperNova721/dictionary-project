@@ -2,17 +2,28 @@
     margin: 20px;
     padding: 0;
     width: 250px;
+    
 }
 
 .Results h2 {
     margin-top: 10px;
+    font-size: 35px;
 }
 
 .Results h4 {
     color: #7e38b7;
+    margin-top: 20px;
+}
+
+.Results p {
+    line-height: 18px;
 }
 
 .Results .noun {
+    line-height: 18px;
     width: 280px;
 }
 
+.Results .verb {
+    line-height: 18px;
+}
