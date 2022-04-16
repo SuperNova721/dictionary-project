@@ -1,3 +1,24 @@
+.Dictionary {
+    display: inline-block;
+    justify-content: center;
+}
+
 .Dictionary h3 {
     font-weight: 200;
+    text-align: center;
+}
+
+.Dictionary form {
+    text-align: center;
+}
+
+.Dictionary input:focus{
+    outline:2px solid #9c89ff;
+}
+
+.Dictionary button {
+    height: 30px;
+    width: 75px;
+    background-color: #e0e3ff;
+    border: 1px solid #58409e;
 }

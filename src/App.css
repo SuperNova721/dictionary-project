@@ -1,22 +1,40 @@
-.App .container {
-  margin-left: 40px;
-  margin-right: 40px;
+.App {
+  
+  width: 900px;
+  margin: 20px 40px 40px 40px;
+ 
 }
-.App header{
-  text-align: left;
-  font-size: 45px;
-}
-.App footer {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 12px;
 
+.App header{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  width: 280px;
+}
+
+.App footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-size: 12px;
+  
  }
 
  .App a {
+   padding-left: 5px;
+   padding-right: 5px;
    text-decoration: none;
-   color: #9c89ff;
+   color: white;
  }
+
+ .App .container {
+  padding: 0 20px 0 20px;
+  margin: 20px 40px 40px 250px;
+  background-color: #94c6e6;
+  width: 900px;
+  border: 1px solid black;
+}
 
  .App .result-images {
    margin-top: 20px;

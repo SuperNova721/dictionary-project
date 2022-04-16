@@ -29,13 +29,16 @@ export default function Dictionary() {
         setKeyword(event.target.value);
     }
     
+    
     return (
         <div className="Dictionary">
             <h3>What's the word today?</h3>
             <form onSubmit={search}>
-                <input type="search" placeholder="Search" onChange={handleKeywordChange} />
+                <input type="search" placeholder="Search" onChange={handleKeywordChange} autoFocus/>
                 <button type="submit">Search</button>
             </form>
             <Results results={results}/>
-        </div> );
-}
+        </div> 
+        );
+            
+    }

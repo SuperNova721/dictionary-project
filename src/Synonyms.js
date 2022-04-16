@@ -6,10 +6,10 @@ export default function Synonyms(props) {
     return (
         <div className="Synonyms text-capitalize">
             <p><strong>Synonyms: </strong></p>
-            {props.synonyms.map(function(synonyms, index) {
+            {props.synonyms.slice(0,5).map(function(synonyms, index) {
                 return (
         <div>
-            <span key={index}>{synonyms},</span>
+            <span key={index}>{synonyms}</span>
         </div>);    
             })}
         </div>

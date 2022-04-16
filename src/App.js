@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-5">
+          <div className="text-body col-5">
             <header className="dictionary-header">
               Dictionary
             </header>
@@ -17,17 +17,13 @@ function App() {
             <p>Image's go here</p>
             <ImageResults />
           </div>
-          </div>
-
-            <footer>
-              This project was created by
-              <a href="https://linkedin.com/in/holly-hadley7"> Holly Hadley </a>
-              and is open sourced on
-              <a href="https://github.com/SuperNova721/dictionary-project.git"> GitHub</a>
-        
-            </footer>
-        
-        
+        </div>
+        <footer>
+          <span>This project was created by </span>
+          <a href="https://linkedin.com/in/holly-hadley7"> Holly Hadley</a>
+          and is open sourced on
+          <a href="https://github.com/SuperNova721/dictionary-project.git"> GitHub</a>
+      </footer>
       </div>
     </div>
   );
