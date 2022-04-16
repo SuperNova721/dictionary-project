@@ -1,6 +1,7 @@
 import React from "react";
 import "./Results.css";
 import Synonyms from "./Synonyms.js";
+import Phonetics from "./Phonetics.js";
 
 export default function Results(props) {
     console.log(props.results);
@@ -9,11 +10,9 @@ export default function Results(props) {
         return (
             <div className="Results">
                 <h2 className="text-capitalize">{props.results.word}</h2>
-                <p>{props.results.phonetic}</p>
-                
+                <Phonetics phonetics={props.results.phonetics[0]}/>
                 
                 {/*Several words found using API result in blank screen. This requires user to have to refresh the page and find alternate word.*/}
-                
                 <div className="definitions">
                     <div className="noun">
                         <h4>{props.results.meanings[0].partOfSpeech}:</h4>
