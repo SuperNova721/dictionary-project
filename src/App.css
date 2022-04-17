@@ -28,7 +28,12 @@
    padding-left: 5px;
    padding-right: 5px;
    text-decoration: none;
-   color: white;
+   color: #9c89ff;
+ }
+
+ .App a:hover {
+    color: #f09a59;
+
  }
 
  .App .container {
@@ -36,7 +41,7 @@
   min-width: 800px;
   padding: 30px 20px 0 20px;
   margin: 20px 40px 40px 20px;
-  background-color: #94c6e6;
+  background-color: #dae9f2;
   width: 900px;
   border: 1px solid black;
 }
