@@ -20,5 +20,14 @@
     height: 30px;
     width: 75px;
     background-color: #e0e3ff;
-    border: 1px solid #58409e;
+    border: 1px outset #9c89ff;
+    margin-left: 2px;
+    padding-right: 12px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 5px 5px 8px 0px rgba(1,52,74,0.85);
+}
+
+.Dictionary button:hover {
+    background-color: #58409e;
+    color: white;
 }

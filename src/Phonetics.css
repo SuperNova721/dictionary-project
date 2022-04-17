@@ -2,3 +2,10 @@
     color:#9c89ff;
     padding: 0;
 }
+
+.Phonetics .audio-link:hover {
+    color: #f09a59;
+    font-weight: bold;
+    font-style: italic;
+
+}
