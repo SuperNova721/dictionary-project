@@ -6,10 +6,12 @@
 .Dictionary h3 {
     font-weight: 200;
     text-align: center;
+    margin-right: 50px;
 }
 
 .Dictionary form {
     text-align: center;
+    margin-right: 50px;
 }
 
 .Dictionary input:focus{

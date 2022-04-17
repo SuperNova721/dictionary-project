@@ -1,6 +1,9 @@
 .App {
   max-width: 900px;
   margin: 0 auto;
+  min-height: 700px;
+  min-width: 800px;
+  padding-top: 10px;
  
 }
 
@@ -15,7 +18,8 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 12px;
   
  }
@@ -28,14 +32,21 @@
  }
 
  .App .container {
-  padding: 0 20px 0 20px;
+  min-height: 700px;
+  min-width: 800px;
+  padding: 30px 20px 0 20px;
   margin: 20px 40px 40px 20px;
   background-color: #94c6e6;
   width: 900px;
   border: 1px solid black;
 }
 
+
  .App .result-images {
    margin-top: 20px;
     text-align: center;
+ }
+
+ .App .col {
+   height: 600px;
  }
