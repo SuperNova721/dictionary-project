@@ -1,6 +1,6 @@
 .App {
-  width: 900px;
-  margin: 20px 40px 40px 40px;
+  max-width: 900px;
+  margin: 0 auto;
  
 }
 

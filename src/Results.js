@@ -4,7 +4,6 @@ import Synonyms from "./Synonyms.js";
 import Phonetics from "./Phonetics.js";
 
 export default function Results(props) {
-    console.log(props.results);
 
     if (props.results) {
         return (

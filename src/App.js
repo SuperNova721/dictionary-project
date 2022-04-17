@@ -1,8 +1,7 @@
 import './App.css';
 import Dictionary from "./Dictionary.js";
-import ImageResults from "./ImageResults";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <div className="container">
@@ -13,9 +12,7 @@ function App() {
             </header>
             <Dictionary defaultKeyword="Search"/>
           </div>
-          <div className="result-images justify-content-center col-7">
-            <p>Image's go here</p>
-            <ImageResults />
+          <div className="col-7">
           </div>
         </div>
         <footer>
