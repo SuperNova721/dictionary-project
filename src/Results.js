@@ -31,27 +31,5 @@ export default function Results(props) {
                 </div>
             </div>
         );
-    } else {
-    return  (
-        <div className="Results">
-            <h2 className="text-capitalize">Search</h2>
-            <h3>/sɜːt͡ʃ/</h3>
-        
-            <div className="definitions">
-                <div className="noun">
-                    <h4>noun:</h4>
-                    <p><strong>Definition: </strong>An attempt to find something.</p>
-                    <p><strong>Example: </strong>Search for a word, you might find what you are looking for.</p>
-       
-            </div>
-            
-            <div className="verb">
-                <h4>Verb:</h4>
-                <p><strong>Definition: </strong>To look in (a place) for something.</p>
-            </div>
-        </div>
-    </div>
-);
-   
-}
+    } 
 }

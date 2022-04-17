@@ -11,7 +11,7 @@ function App() {
             <header className="dictionary-header">
               Dictionary
             </header>
-            <Dictionary />
+            <Dictionary defaultKeyword="Search"/>
           </div>
           <div className="result-images justify-content-center col-7">
             <p>Image's go here</p>
@@ -19,7 +19,7 @@ function App() {
           </div>
         </div>
         <footer>
-          <span>This project was created by </span>
+          This project was created by
           <a href="https://linkedin.com/in/holly-hadley7"> Holly Hadley</a>
           and is open sourced on
           <a href="https://github.com/SuperNova721/dictionary-project.git"> GitHub</a>
